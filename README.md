@@ -2,16 +2,10 @@
 
 # "city.txt" contains cities connected between each other.
 
-# Boston, New York \n 
+# DemoController -> DemoService for business logic is implemented.
 
-# Boston, Newark \n 
+# Considered all edge cases & null checks.
 
-# Boston, Philadelphia \n 
+# Replace below url with city names under {city1, city2} once the application is up & running.
 
-# Philadelphia, Newark \n 
-
-# Newark, Boston \n 
-
-# Trenton, Albany \n
-
-# Considered all edge cases & null checks
+http://localhost:8080/connected?origin={city1}&destination={city2}
